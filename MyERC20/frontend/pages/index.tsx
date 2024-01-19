@@ -5,7 +5,7 @@ import { readContract, waitForTransaction, watchContractEvent, writeContract } f
 
 const contract_def = require('../public/MyERC20Token.json');
 const contract_abi = contract_def.abi;
-const MyERC20TokenAddress = "0xA1BBD8B6493C32A3C27cCDef182b46d3441d9Bc3";
+const MyERC20TokenAddress = "0xF066A53D0bC03C110830637B8624e19dd96b9d05";
 
 async function myReadContract(func, args) {
     return await readContract({
